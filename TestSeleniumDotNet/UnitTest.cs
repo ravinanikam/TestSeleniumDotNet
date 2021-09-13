@@ -12,7 +12,7 @@ namespace TestSeleniumDotNet
         [SetUp]
         public void SetUp()
         {
-            Console.WriteLine("SetUp");
+            
             Driver = new ChromeDriver();
         }
 
